@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  pipelines:
+    tty: true
+    build: 
+      dockerfile: 'Dockerfile-python'
+    restart: always
+
+
